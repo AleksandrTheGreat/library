@@ -33,7 +33,11 @@
                     <div>Контакты</div>
                 </div>
                 <div>
-                    {{ poisk }}
+                    <form action="" method="POST">
+                        {% scrf_token %}
+                        <div>{{ poisk }}</div>
+                        <div><input></div>
+                    </form>
                 </div>
                 <div>
 
