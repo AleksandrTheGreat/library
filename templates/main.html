@@ -32,18 +32,17 @@
                 <div>
                     <div>Контакты</div>
                 </div>
-                <div>
-                    <form action="" method="POST">
-                        {% scrf_token %}
-                        <div>{{ poisk }}</div>
-                        <div><input></div>
-                    </form>
-                </div>
-                <div>
-
-                </div>
-                <div>
-
+                <div class="poiskaccaunt">
+                    <div>
+                        <form action="" method="POST">
+                            {{ scrf_token }}
+                            <div>{{ poisk }}</div>
+                            <div><button type="submit"><img src="{% static 'img/' %}"></button></div>
+                        </form>
+                    </div>
+                    <div>
+                        <button type="submit"><img src="{% static 'img/' %}"></button>
+                    </div>
                 </div>
             </div>
 

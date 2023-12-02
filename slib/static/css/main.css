@@ -5,3 +5,31 @@ body {
 .header {
     text-align: center;
 }
+
+.zagolovok {
+    background-color: rgb(38, 169, 225);
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 40pt;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.menu {
+    background-color: rgb(0,151,28);
+    color: white;
+    display: flex;
+    justify-content: left;
+}
+
+.menu>div {
+    padding: 20px;
+    font-size: 14pt;
+}
+
+.poiskaccaunt {
+    background-color: rgb(0,151,28);
+    color: white;
+    display: flex;
+    text-align: right;
+}
