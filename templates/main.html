@@ -33,19 +33,16 @@
                     <div>Контакты</div>
                 </div>
                 <div class="poiskaccaunt">
-                    <div>
-                        <form action="" method="POST">
-                            {{ scrf_token }}
-                            <div>{{ poisk }}</div>
-                            <div><button type="submit"><img src="{% static 'img/' %}"></button></div>
-                        </form>
-                    </div>
-                    <div>
-                        <button type="submit"><img src="{% static 'img/' %}"></button>
-                    </div>
+                    <form action="" method="POST">
+                        {{ scrf_token }}
+                        {{ poisk }}
+                        <button type="submit"><img src="{% static 'img/poisk.png' %}" height="20px"></button>
+                    </form>
+                </div>
+                <div>
+                    <button type="submit"><img src="{% static 'img/account.png' %}" height="20px"></button>
                 </div>
             </div>
-
         </div>
     </header>
     {% endblock header %}
